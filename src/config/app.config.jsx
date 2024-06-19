@@ -1,5 +1,5 @@
 const appConfig = {
-    apiUrl: 'http://localhost:8000/',
+    apiUrl: 'https://jupiter-backend.vercel.app/',
     // apiUrl: 'http://144.172.74.28:8001/',
     clientUrl : 'http://localhost:5173/',
     appName: 'Jupiter Swap Bot',
