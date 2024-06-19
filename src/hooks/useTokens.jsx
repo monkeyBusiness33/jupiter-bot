@@ -113,7 +113,7 @@ export const useGetTokens = () => {
 
               const poolArrayData = await asyncPoolWithRateLimit(
                 2,
-                300,
+                400,
                 response.results,
                 async (item) => {
                   const pool = await getPoolLiquidity(item.address);
